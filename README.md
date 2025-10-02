@@ -36,9 +36,9 @@ bash
 npm start
 Access the application
 
-Frontend: http://localhost:3000
+Frontend: http://localhost:3100
 
-API: http://localhost:3000/products
+API: http://localhost:3100/products
 
 Development Mode
 bash

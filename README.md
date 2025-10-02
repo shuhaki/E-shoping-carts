@@ -1,31 +1,28 @@
-🛍️ E-Commerce Shopping Cart
+# 🛍️ E-Commerce Shopping Cart
+
 A minimal, full-stack e-commerce application with product listing, shopping cart functionality, and checkout simulation.
 
-✨ Features
-Product Catalog: Display products in a responsive grid layout
+## ✨ Features
 
-Shopping Cart: Add/remove items and adjust quantities
+- **Product Catalog**: Display products in a responsive grid layout
+- **Shopping Cart**: Add/remove items and adjust quantities
+- **Persistent Cart**: Cart contents saved in localStorage
+- **Checkout System**: Simulate order processing
+- **RESTful API**: Backend endpoints for products and checkout
+- **Comprehensive Testing**: Both automated and manual test cases
 
-Persistent Cart: Cart contents saved in localStorage
+## 🚀 Quick Start
 
-Checkout System: Simulate order processing
+### Prerequisites
+- Node.js (v14 or higher)
+- npm
 
-RESTful API: Backend endpoints for products and checkout
+### Installation & Running
 
-Comprehensive Testing: Both automated and manual test cases
-
-🚀 Quick Start
-Prerequisites
-Node.js (v14 or higher)
-
-npm
-
-Installation & Running
-Clone the repository
-
-bash
-git clone <your-repository-url>
-cd ecommerce-site
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   cd ecommerce-site
 Install dependencies
 
 bash
@@ -61,7 +58,7 @@ GET /products - Retrieve all products
 POST /checkout - Submit an order
 
 Frontend Testing
-Open http://localhost:3100
+Open http://localhost:3000
 
 Test these user flows:
 

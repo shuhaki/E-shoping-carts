@@ -1,28 +1,31 @@
-# 🛍️ E-Commerce Shopping Cart
-
+🛍️ E-Commerce Shopping Cart
 A minimal, full-stack e-commerce application with product listing, shopping cart functionality, and checkout simulation.
 
-## ✨ Features
+✨ Features
+Product Catalog: Display products in a responsive grid layout
 
-- **Product Catalog**: Display products in a responsive grid layout
-- **Shopping Cart**: Add/remove items and adjust quantities
-- **Persistent Cart**: Cart contents saved in localStorage
-- **Checkout System**: Simulate order processing
-- **RESTful API**: Backend endpoints for products and checkout
-- **Comprehensive Testing**: Both automated and manual test cases
+Shopping Cart: Add/remove items and adjust quantities
 
-## 🚀 Quick Start
+Persistent Cart: Cart contents saved in localStorage
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm
+Checkout System: Simulate order processing
 
-### Installation & Running
+RESTful API: Backend endpoints for products and checkout
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repository-url>
-   cd ecommerce-site
+Comprehensive Testing: Both automated and manual test cases
+
+🚀 Quick Start
+Prerequisites
+Node.js (v14 or higher)
+
+npm
+
+Installation & Running
+Clone the repository
+
+bash
+git clone <your-repository-url>
+cd ecommerce-site
 Install dependencies
 
 bash
@@ -33,9 +36,9 @@ bash
 npm start
 Access the application
 
-Frontend: http://localhost:3100
+Frontend: http://localhost:3000
 
-API: http://localhost:3100/products
+API: http://localhost:3000/products
 
 Development Mode
 bash
@@ -58,7 +61,7 @@ GET /products - Retrieve all products
 POST /checkout - Submit an order
 
 Frontend Testing
-Open http://localhost:3100
+Open http://localhost:3000
 
 Test these user flows:
 
@@ -163,4 +166,3 @@ Testing: Jest, Supertest, Postman
 Storage: Browser localStorage
 
 Development: Nodemon for auto-restart
-

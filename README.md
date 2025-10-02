@@ -33,9 +33,9 @@ bash
 npm start
 Access the application
 
-Frontend: http://localhost:3000
+Frontend: http://localhost:3100
 
-API: http://localhost:3000/products
+API: http://localhost:3100/products
 
 Development Mode
 bash
@@ -58,7 +58,7 @@ GET /products - Retrieve all products
 POST /checkout - Submit an order
 
 Frontend Testing
-Open http://localhost:3000
+Open http://localhost:3100
 
 Test these user flows:
 
